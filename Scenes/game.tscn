@@ -1,0 +1,324 @@
+[gd_scene load_steps=7 format=3 uid="uid://wfg3aek402ja"]
+
+[ext_resource type="PackedScene" uid="uid://bjito3ai3exiv" path="res://Scenes/paddel.tscn" id="1_60u5f"]
+[ext_resource type="Script" path="res://Scripts/game.gd" id="1_r61hh"]
+[ext_resource type="PackedScene" uid="uid://bx2ip6dfay2xl" path="res://Scenes/bounds.tscn" id="2_t73fe"]
+[ext_resource type="PackedScene" uid="uid://b8xc4l6s0kbu3" path="res://Scenes/ball.tscn" id="3_uu3wh"]
+[ext_resource type="PackedScene" uid="uid://2ryvlkwwekxm" path="res://Scenes/brick.tscn" id="4_nycec"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_dlqvk"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_r61hh")
+metadata/_edit_vertical_guides_ = [625.0, 575.0, 576.0]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_right = 1154.0
+offset_bottom = 648.0
+color = Color(0.129412, 0.243137, 0.266667, 1)
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_left = 19.0
+offset_top = 16.0
+offset_right = 79.0
+offset_bottom = 39.0
+theme_override_font_sizes/font_size = 25
+text = "Lives: 3"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2(576, 324)
+
+[node name="Paddel" parent="." instance=ExtResource("1_60u5f")]
+position = Vector2(576, 570)
+
+[node name="Bounds" parent="." instance=ExtResource("2_t73fe")]
+position = Vector2(538, -1)
+rotation = 3.14159
+
+[node name="Right" parent="." instance=ExtResource("2_t73fe")]
+position = Vector2(1154, 250)
+rotation = 4.71239
+
+[node name="Left" parent="." instance=ExtResource("2_t73fe")]
+position = Vector2(0, 250)
+rotation = 1.5708
+
+[node name="Ball" parent="." instance=ExtResource("3_uu3wh")]
+position = Vector2(576, 397)
+scale = Vector2(0.75, 0.75)
+motion_mode = 0
+slide_on_ceiling = false
+
+[node name="Bricks" type="Node" parent="."]
+
+[node name="Brick" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(230, 20)
+
+[node name="Brick2" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(300, 20)
+
+[node name="Brick3" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(370, 20)
+
+[node name="Brick4" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(440, 20)
+
+[node name="Brick5" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(510, 20)
+
+[node name="Brick6" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(580, 20)
+
+[node name="Brick7" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(650, 20)
+
+[node name="Brick8" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(720, 20)
+
+[node name="Brick9" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(790, 20)
+
+[node name="Brick10" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(860, 20)
+
+[node name="Brick11" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(230, 60)
+level = 2
+
+[node name="Brick12" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(300, 60)
+level = 2
+
+[node name="Brick13" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(370, 60)
+level = 2
+
+[node name="Brick14" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(440, 60)
+level = 2
+
+[node name="Brick15" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(510, 60)
+level = 2
+
+[node name="Brick16" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(580, 60)
+level = 2
+
+[node name="Brick17" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(650, 60)
+level = 2
+
+[node name="Brick18" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(720, 60)
+level = 2
+
+[node name="Brick19" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(790, 60)
+level = 2
+
+[node name="Brick20" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(860, 60)
+level = 2
+
+[node name="Brick21" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(300, 100)
+level = 1
+
+[node name="Brick22" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(370, 100)
+level = 1
+
+[node name="Brick23" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(440, 100)
+level = 1
+
+[node name="Brick24" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(510, 100)
+level = 1
+
+[node name="Brick25" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(580, 100)
+level = 1
+
+[node name="Brick26" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(650, 100)
+level = 1
+
+[node name="Brick27" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(720, 100)
+level = 1
+
+[node name="Brick28" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(790, 100)
+level = 1
+
+[node name="Brick29" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(860, 100)
+level = 1
+
+[node name="Brick30" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(230, 100)
+level = 1
+
+[node name="Brick31" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(230, 140)
+
+[node name="Brick32" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(300, 140)
+
+[node name="Brick33" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(370, 140)
+
+[node name="Brick34" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(440, 140)
+
+[node name="Brick35" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(510, 140)
+
+[node name="Brick36" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(580, 140)
+
+[node name="Brick37" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(650, 140)
+
+[node name="Brick38" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(720, 140)
+
+[node name="Brick39" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(790, 140)
+
+[node name="Brick40" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(860, 140)
+
+[node name="Brick41" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(230, 180)
+level = 2
+
+[node name="Brick42" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(300, 180)
+level = 2
+
+[node name="Brick43" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(370, 180)
+level = 2
+
+[node name="Brick44" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(440, 180)
+level = 2
+
+[node name="Brick45" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(510, 180)
+level = 2
+
+[node name="Brick46" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(580, 180)
+level = 2
+
+[node name="Brick47" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(650, 180)
+level = 2
+
+[node name="Brick48" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(720, 180)
+level = 2
+
+[node name="Brick49" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(790, 180)
+level = 2
+
+[node name="Brick50" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(860, 180)
+level = 2
+
+[node name="Brick51" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(300, 220)
+level = 1
+
+[node name="Brick52" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(370, 220)
+level = 1
+
+[node name="Brick53" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(440, 220)
+level = 1
+
+[node name="Brick54" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(510, 220)
+level = 1
+
+[node name="Brick55" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(580, 220)
+level = 1
+
+[node name="Brick56" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(650, 220)
+level = 1
+
+[node name="Brick57" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(720, 220)
+level = 1
+
+[node name="Brick58" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(790, 220)
+level = 1
+
+[node name="Brick59" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(860, 220)
+level = 1
+
+[node name="Brick60" parent="Bricks" instance=ExtResource("4_nycec")]
+position = Vector2(230, 220)
+level = 1
+
+[node name="Killzone" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
+position = Vector2(582, 673)
+shape = SubResource("WorldBoundaryShape2D_dlqvk")
+
+[node name="GameOver" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="GameOver"]
+offset_right = 1154.0
+offset_bottom = 651.0
+color = Color(0.137255, 0.137255, 0.137255, 0.690196)
+
+[node name="Label" type="Label" parent="GameOver"]
+offset_left = 416.0
+offset_top = 271.0
+offset_right = 743.0
+offset_bottom = 354.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "Game Over"
+
+[node name="Win" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="Win"]
+offset_right = 1154.0
+offset_bottom = 651.0
+color = Color(0.137255, 0.137255, 0.137255, 0.690196)
+
+[node name="Label" type="Label" parent="Win"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -129.5
+offset_top = -41.5
+offset_right = 129.5
+offset_bottom = 41.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0.917647, 0, 1)
+theme_override_font_sizes/font_size = 60
+text = "You Win!"
+
+[connection signal="body_entered" from="Killzone" to="." method="_on_killzone_body_entered"]
