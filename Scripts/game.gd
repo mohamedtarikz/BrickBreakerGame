@@ -23,9 +23,10 @@ func _on_killzone_body_entered(body):
 		reload()
 
 func reload():
-	print("moot")
 	ball.queue_free()
 	ball = BALL.instantiate()
+	ball.scale.x = 0.75
+	ball.scale.y = 0.75
 	ball.load_game()
 	add_child(ball)
 
