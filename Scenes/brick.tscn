@@ -1,10 +1,10 @@
 [gd_scene load_steps=4 format=3 uid="uid://2ryvlkwwekxm"]
 
-[ext_resource type="Texture2D" uid="uid://bpbf2jgfttxpk" path="res://Assets/Sprites/Rbrick.png" id="1_il1qk"]
 [ext_resource type="Script" path="res://Scripts/brick.gd" id="1_nqra7"]
+[ext_resource type="Texture2D" uid="uid://h3lopi0fioed" path="res://Assets/Sprites/RBrick.png" id="2_o220c"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4v4cu"]
-size = Vector2(60, 20)
+size = Vector2(116, 50)
 
 [node name="Brick" type="RigidBody2D"]
 gravity_scale = 0.0
@@ -12,12 +12,15 @@ lock_rotation = true
 freeze = true
 script = ExtResource("1_nqra7")
 level = 3
+metadata/_edit_vertical_guides_ = [6.0, 8.0]
+metadata/_edit_horizontal_guides_ = [28.0, 36.0]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.2, 0.1)
-texture = ExtResource("1_il1qk")
-offset = Vector2(130, 100)
+scale = Vector2(0.15, 0.2)
+texture = ExtResource("2_o220c")
+offset = Vector2(192, 64)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(30, 10)
+position = Vector2(29, 12.5)
+scale = Vector2(0.5, 0.5)
 shape = SubResource("RectangleShape2D_4v4cu")

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmbhj7od7e7w"
-path="res://.godot/imported/Paddel.png-ccd6ed4fc47caddcbd2b6245613243a8.ctex"
+uid="uid://buku6km20tivw"
+path="res://.godot/imported/BBrickbroken.png-a857bfb023bbdf33cfb828f4ee3a4773.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Paddel.png"
-dest_files=["res://.godot/imported/Paddel.png-ccd6ed4fc47caddcbd2b6245613243a8.ctex"]
+source_file="res://Assets/Sprites/BBrickbroken.png"
+dest_files=["res://.godot/imported/BBrickbroken.png-a857bfb023bbdf33cfb828f4ee3a4773.ctex"]
 
 [params]
 

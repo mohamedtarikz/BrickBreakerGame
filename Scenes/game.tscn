@@ -55,224 +55,284 @@ slide_on_ceiling = false
 [node name="Bricks" type="Node" parent="."]
 
 [node name="Brick" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(230, 20)
+position = Vector2(232, 21)
+level = 2
+color = 2
 
 [node name="Brick2" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(300, 20)
+position = Vector2(302, 21)
+level = 2
+color = 2
 
 [node name="Brick3" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(370, 20)
+position = Vector2(372, 21)
+level = 2
+color = 2
 
 [node name="Brick4" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(440, 20)
+position = Vector2(442, 21)
+level = 2
+color = 2
 
 [node name="Brick5" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(510, 20)
+position = Vector2(512, 21)
+level = 2
+color = 2
 
 [node name="Brick6" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(580, 20)
+position = Vector2(582, 21)
+level = 2
+color = 2
 
 [node name="Brick7" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(650, 20)
+position = Vector2(652, 21)
+level = 2
+color = 2
 
 [node name="Brick8" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(720, 20)
+position = Vector2(722, 21)
+level = 2
+color = 2
 
 [node name="Brick9" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(790, 20)
+position = Vector2(792, 21)
+level = 2
+color = 2
 
 [node name="Brick10" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(860, 20)
+position = Vector2(862, 21)
+level = 2
+color = 2
 
 [node name="Brick11" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(230, 60)
+position = Vector2(232, 61)
 level = 2
+color = 2
 
 [node name="Brick12" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(300, 60)
+position = Vector2(302, 61)
 level = 2
+color = 2
 
 [node name="Brick13" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(370, 60)
+position = Vector2(372, 61)
 level = 2
+color = 2
 
 [node name="Brick14" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(440, 60)
+position = Vector2(442, 61)
 level = 2
+color = 2
 
 [node name="Brick15" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(510, 60)
+position = Vector2(512, 61)
 level = 2
+color = 2
 
 [node name="Brick16" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(580, 60)
+position = Vector2(582, 61)
 level = 2
+color = 2
 
 [node name="Brick17" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(650, 60)
+position = Vector2(652, 61)
 level = 2
+color = 2
 
 [node name="Brick18" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(720, 60)
+position = Vector2(722, 61)
 level = 2
+color = 2
 
 [node name="Brick19" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(790, 60)
+position = Vector2(792, 61)
 level = 2
+color = 2
 
 [node name="Brick20" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(860, 60)
+position = Vector2(862, 61)
 level = 2
+color = 2
 
 [node name="Brick21" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(300, 100)
-level = 1
+position = Vector2(302, 101)
+level = 2
+color = 1
 
 [node name="Brick22" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(370, 100)
-level = 1
+position = Vector2(372, 101)
+level = 2
+color = 1
 
 [node name="Brick23" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(440, 100)
-level = 1
+position = Vector2(442, 101)
+level = 2
+color = 1
 
 [node name="Brick24" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(510, 100)
-level = 1
+position = Vector2(512, 101)
+level = 2
+color = 1
 
 [node name="Brick25" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(580, 100)
-level = 1
+position = Vector2(582, 101)
+level = 2
+color = 1
 
 [node name="Brick26" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(650, 100)
-level = 1
+position = Vector2(652, 101)
+level = 2
+color = 1
 
 [node name="Brick27" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(720, 100)
-level = 1
+position = Vector2(722, 101)
+level = 2
+color = 1
 
 [node name="Brick28" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(790, 100)
-level = 1
+position = Vector2(792, 101)
+level = 2
+color = 1
 
 [node name="Brick29" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(860, 100)
-level = 1
+position = Vector2(862, 101)
+level = 2
+color = 1
 
 [node name="Brick30" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(230, 100)
-level = 1
+position = Vector2(232, 101)
+level = 2
+color = 1
 
 [node name="Brick31" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(230, 140)
+position = Vector2(232, 141)
+level = 2
+color = 1
 
 [node name="Brick32" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(300, 140)
+position = Vector2(302, 141)
+level = 2
+color = 1
 
 [node name="Brick33" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(370, 140)
+position = Vector2(372, 141)
+level = 2
+color = 1
 
 [node name="Brick34" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(440, 140)
+position = Vector2(442, 141)
+level = 2
+color = 1
 
 [node name="Brick35" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(510, 140)
+position = Vector2(512, 141)
+level = 2
+color = 1
 
 [node name="Brick36" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(580, 140)
+position = Vector2(582, 141)
+level = 2
+color = 1
 
 [node name="Brick37" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(650, 140)
+position = Vector2(652, 141)
+level = 2
+color = 1
 
 [node name="Brick38" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(720, 140)
+position = Vector2(722, 141)
+level = 2
+color = 1
 
 [node name="Brick39" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(790, 140)
+position = Vector2(792, 141)
+level = 2
+color = 1
 
 [node name="Brick40" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(860, 140)
+position = Vector2(862, 141)
+level = 2
+color = 1
 
 [node name="Brick41" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(230, 180)
+position = Vector2(232, 181)
 level = 2
 
 [node name="Brick42" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(300, 180)
+position = Vector2(302, 181)
 level = 2
 
 [node name="Brick43" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(370, 180)
+position = Vector2(372, 181)
 level = 2
 
 [node name="Brick44" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(440, 180)
+position = Vector2(442, 181)
 level = 2
 
 [node name="Brick45" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(510, 180)
+position = Vector2(512, 181)
 level = 2
 
 [node name="Brick46" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(580, 180)
+position = Vector2(582, 181)
 level = 2
 
 [node name="Brick47" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(650, 180)
+position = Vector2(652, 181)
 level = 2
 
 [node name="Brick48" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(720, 180)
+position = Vector2(722, 181)
 level = 2
 
 [node name="Brick49" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(790, 180)
+position = Vector2(792, 181)
 level = 2
 
 [node name="Brick50" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(860, 180)
+position = Vector2(862, 181)
 level = 2
 
 [node name="Brick51" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(300, 220)
-level = 1
+position = Vector2(302, 221)
+level = 2
 
 [node name="Brick52" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(370, 220)
-level = 1
+position = Vector2(372, 221)
+level = 2
 
 [node name="Brick53" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(440, 220)
-level = 1
+position = Vector2(442, 221)
+level = 2
 
 [node name="Brick54" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(510, 220)
-level = 1
+position = Vector2(512, 221)
+level = 2
 
 [node name="Brick55" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(580, 220)
-level = 1
+position = Vector2(582, 221)
+level = 2
 
 [node name="Brick56" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(650, 220)
-level = 1
+position = Vector2(652, 221)
+level = 2
 
 [node name="Brick57" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(720, 220)
-level = 1
+position = Vector2(722, 221)
+level = 2
 
 [node name="Brick58" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(790, 220)
-level = 1
+position = Vector2(792, 221)
+level = 2
 
 [node name="Brick59" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(860, 220)
-level = 1
+position = Vector2(862, 221)
+level = 2
 
 [node name="Brick60" parent="Bricks" instance=ExtResource("4_nycec")]
-position = Vector2(230, 220)
-level = 1
+position = Vector2(232, 221)
+level = 2
 
 [node name="Killzone" type="Area2D" parent="."]
 
